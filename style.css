@@ -53,9 +53,9 @@ span + span {
 }
 
 header {
-    position: absolute;
-    right: 60px;
-    top: 18px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
 }
 
 #left_down {
