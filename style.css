@@ -1,0 +1,95 @@
+:root {
+    --light-gray: #dedede;
+    --dark-gray: #a4a4a4;
+}
+
+p {
+    color: red;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem;
+}
+
+#search-div {
+    display: flex;
+    justify-content: center;
+    margin: 2rem
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+a {
+    font-family: sans-serif;
+    font-size: small;
+    text-decoration: none;
+    color: #3c4043;
+}
+
+a.footer {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: grey;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#tops + #tops {
+    margin-left: 12px;
+}
+
+span + span {
+    margin-left: 26px;
+}
+
+header {
+    position: absolute;
+    right: 60px;
+    top: 18px;
+}
+
+#left_down {
+    position: absolute;
+    left: 36px;
+    bottom: 16px;
+}
+
+#right_down {
+    position: absolute;
+    right: 36px;
+    bottom: 16px;
+}
+
+#country {
+    position: absolute;
+    left: 32px;
+    bottom: 62px;
+}
+
+#search{
+    min-width: 30rem;
+    border: 1px solid var(--light-gray);
+    outline: none;
+    padding: 1rem;
+    border-radius: 1.5rem;
+}
+
+.button-wrapper button{
+    background-color: var(--light-gray);
+    border: none;
+    outline: none;
+    color: var(--dark-gray);
+    padding: .5rem;
+    border-radius: 4px;
+    margin: .5rem;
+}
